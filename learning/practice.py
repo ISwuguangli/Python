@@ -13,6 +13,7 @@ print ('字符串%s' % x)
 print ('格式字符串{0}'.format(x))
 print ('格式化{y:.3f}'.format(y=3*3))
 print ('z={z:.{d}f}'.format(z=1*2, d=4))
+print ('t={t:.{d}f}'.format(t=2/1, d=4))
 # 还可以使用模板包
 
 # python整数长度不限，浮点数长度限制17位
